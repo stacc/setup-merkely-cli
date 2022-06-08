@@ -1,6 +1,6 @@
 # `setup-merkely-cli`
 
-> Sets up the Merkely CLI for GitHub Actions runners.
+> Sets up the Merkely CLI for GitHub Actions runners
 
 ## About
 
