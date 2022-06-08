@@ -5801,7 +5801,6 @@ module.exports = v4;
 /***/ 129:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const os = __nccwpck_require__(37);
 const path = __nccwpck_require__(17);
 
 // arch in [arm, x32, x64...] (https://nodejs.org/api/os.html#os_os_arch)
@@ -5837,6 +5836,7 @@ module.exports = { getDownloadUrl };
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const path = __nccwpck_require__(17);
+const os = __nccwpck_require__(37);
 const core = __nccwpck_require__(186);
 const tc = __nccwpck_require__(784);
 const { getDownloadUrl } = __nccwpck_require__(129);
