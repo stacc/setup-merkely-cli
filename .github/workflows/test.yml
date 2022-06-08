@@ -32,6 +32,7 @@ jobs:
           export MERKELY_VERSION=$( merkely version )
           echo 'MERKELY_VERSION_INSTALLED<<EOF' >> $GITHUB_ENV
           merkely version >> $GITHUB_ENV
+          echo "\n" >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
       - name: Verify
         shell: python
