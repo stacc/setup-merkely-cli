@@ -3,7 +3,9 @@ const path = require("path");
 // arch in [arm, x32, x64...] (https://nodejs.org/api/os.html#os_os_arch)
 // return value in [amd64, 386, arm]
 function mapArch(arch) {
-  const mappings = {};
+  const mappings = {
+    x64: "amd64"
+  };
   return mappings[arch] || arch;
 }
 
