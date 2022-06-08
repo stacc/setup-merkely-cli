@@ -1,4 +1,3 @@
-const os = require("os");
 const path = require("path");
 
 // arch in [arm, x32, x64...] (https://nodejs.org/api/os.html#os_os_arch)
