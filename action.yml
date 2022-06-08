@@ -1,0 +1,10 @@
+name: setup-merkely-cli
+description: Install the merkely CLI on Github Actions runners
+inputs:
+  version:
+    description: "Version of merkely CLI"
+    required: false
+    default: 1.5.1
+runs:
+  using: "node16"
+  main: "dist/index.js"
